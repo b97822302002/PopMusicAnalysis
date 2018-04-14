@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PopMusicAnalysis", "PopMusicAnalysis\PopMusicAnalysis.pyproj", "{8639531A-0F50-4E53-B53D-236F4D4B6347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8639531A-0F50-4E53-B53D-236F4D4B6347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8639531A-0F50-4E53-B53D-236F4D4B6347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5A39297-44FA-4E53-BE36-012E126E3F28}
+	EndGlobalSection
+EndGlobal
