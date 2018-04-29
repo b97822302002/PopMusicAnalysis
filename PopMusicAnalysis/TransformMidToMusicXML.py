@@ -11,3 +11,4 @@ for midiFile in glob.glob(join(midiFileDirectoryPath, "*.mid")):
          join(midiFileDirectoryPath, basename(midiFile)), \
          "--export-to", \
          join(targetMusicXmlDirectoryPath, basename(midiFile)[:-4]+".musicxml")])
+

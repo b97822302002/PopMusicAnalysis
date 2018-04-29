@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8639531a-0f50-4e53-b53d-236f4d4b6347</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PopMusicAnalysis.py</StartupFile>
+    <StartupFile>TransformMidToMusicXML.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PopMusicAnalysis.py" />
+    <Compile Include="TransformMidToMusicXML.py" />
+    <Compile Include="TransposeToCMajor.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data_midi\" />
     <Folder Include="data_musicxml\" />
+    <Folder Include="data_cmajor\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
